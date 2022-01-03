@@ -1,0 +1,1 @@
+java -Du=jpashop -Dspring.profiles.active=dev -DDB_STR=jdbc:postgresql://localhost/jpashop -Dusername=test -Dpassword=test -jar ../build/libs/jpashop-0.0.1-SNAPSHOT.jar -Dloader.main=jpabook.jpashop.JpashopApplication 
